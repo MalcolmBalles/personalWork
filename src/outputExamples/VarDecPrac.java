@@ -1,10 +1,15 @@
 package outputExamples;
 
-public class MyName {
+public class VarDecPrac {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Malcolm Balles");
+
+		int age;
+		char choiceLetter;
+		double money;
+		boolean answer;
+		
 	}
 
 }

@@ -9,7 +9,7 @@ public class IntialsWithLettersToLookLikeBiggerLetters {
 		System.out.println("M M M M     J    BBBB  ");
 		System.out.println("M  M  M  J  J    B   B ");
 		System.out.println("M     M   JJ     BBBB  ");
-
+	
+		}
 	}
 
-}
