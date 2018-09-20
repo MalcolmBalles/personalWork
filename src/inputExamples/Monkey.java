@@ -9,7 +9,7 @@ public class Monkey {
 		
 		System.out.println("What is the height of an adult money (in inches please, no units)");
 		Scanner input = new Scanner(System.in);
-		int answer = input.nextInt();
+		double answer = input.nextDouble();
 		System.out.println(answer + " inches");
 	}
 
