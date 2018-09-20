@@ -12,6 +12,6 @@ public class AgeAndWeightQuestion {
 		int age = input.nextInt();
 		System.out.println("What is your wieght (in pounds)?");
 		int weight = input.nextInt();
-		System.out.println("You are " + age + " years old and you weigh " + weight + " pounds");
+		System.out.println("You are " + age + " years old and you  " + weight + " pounds");
 	}
 }
