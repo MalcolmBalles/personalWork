@@ -21,16 +21,17 @@ public class PhoneNumberPullOp {
 		System.out.println("What is your phone number? (no dashes just the numbers)");
 		phone = input.nextDouble();
 		
-		ten = (int)(phone / 1000000000);
-		nine = (int)((phone - ((double)ten * 1000000000)) / 100000000);
+		//i call this next section why
+		ten   = (int)(phone / 1000000000);
+		nine  = (int)((phone - ((double)ten * 1000000000)) / 100000000);
 		eight = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000)) / 10000000) ;
 		seven = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000)) / 1000000);
-		six = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000) - (seven * 1000000)) / 100000);
-		five = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000) - (seven * 1000000) - (six * 100000)) / 10000);
-		four = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000) - (seven * 1000000) - (six * 100000) - (five * 10000)) / 1000);
+		six   = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000) - (seven * 1000000)) / 100000);
+		five  = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000) - (seven * 1000000) - (six * 100000)) / 10000);
+		four  = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000) - (seven * 1000000) - (six * 100000) - (five * 10000)) / 1000);
 		three = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000) - (seven * 1000000) - (six * 100000) - (five * 10000) - (four * 1000)) / 100);
-		two = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000) - (seven * 1000000) - (six * 100000) - (five * 10000) - (four * 1000) - (three * 100)) / 10);
-		one = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000) - (seven * 1000000) - (six * 100000) - (five * 10000) - (four * 1000) - (three * 100) - (two * 10)));
+		two   = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000) - (seven * 1000000) - (six * 100000) - (five * 10000) - (four * 1000) - (three * 100)) / 10);
+		one   = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000) - (eight * 10000000) - (seven * 1000000) - (six * 100000) - (five * 10000) - (four * 1000) - (three * 100) - (two * 10)));
 
 		System.out.println("Your area code is " + ten + nine + eight);
 		System.out.println("Your 3 middle numbers are " + seven + six + five);
