@@ -28,7 +28,7 @@ public class ChangeOp {
 		System.out.println("That means you will get " + dimes + " dimes");
 		System.out.println("That means you will get " + nickels + " nickels");
 		System.out.println("That means you will get " + pennies + " pennies");
-
+		input.close();
 
 		
 	}
