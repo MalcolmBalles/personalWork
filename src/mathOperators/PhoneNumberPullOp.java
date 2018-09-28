@@ -21,7 +21,7 @@ public class PhoneNumberPullOp {
 		System.out.println("What is your phone number? (no dashes just the numbers)");
 		phone = input.nextDouble();
 		
-		//i call this next section why
+		//i call this next section "why"
 		ten   = (int)(phone / 1000000000);
 		nine  = (int)((phone - ((double)ten * 1000000000)) / 100000000);
 		eight = (int)((phone - ((double)ten * 1000000000) - (nine * 100000000)) / 10000000) ;
