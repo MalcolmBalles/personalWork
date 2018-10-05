@@ -4,8 +4,10 @@ public class OOPTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		House bob = new House();
-		bob.paintWall();
+		Numbers bob = new Numbers();
+		double number = bob.returnArea();
+		System.out.println(number);
+		
 		
 		
 
