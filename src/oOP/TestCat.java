@@ -18,7 +18,8 @@ public class TestCat {
 		kat.sleepLess();
 		kat.sleepLess();
 		System.out.println(kat.getSleep());
-
+		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();		kat.sleepLess();
+		System.out.println(kat.getSleep());
 
 
 
