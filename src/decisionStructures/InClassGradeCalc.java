@@ -13,7 +13,11 @@ public class InClassGradeCalc {
 		double havg = input.nextDouble();
 		System.out.println("What is your teacher nice? (1 is yes 2 is no)");
 		int ans = input.nextInt();
-		 
+		while (!(ans == 1 || ans == 2)) {
+			System.out.println("you think you are a funny guy, type in 1 or 2 idiot");
+			System.out.println("What is your teacher nice? (1 is yes 2 is no)");
+			ans = input.nextInt();
+		}
 		if (ans == 1) {
 			if (tavg >= havg) {
 				System.out.println("your grade is " + tavg);
