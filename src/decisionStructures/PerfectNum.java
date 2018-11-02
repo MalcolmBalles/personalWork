@@ -9,14 +9,15 @@ public class PerfectNum {
 		int count = 0;
 		int rem = 0;
 		for(num = 1; num <= 1000; num++) {
-			while(num > sum) {
-				count++;
-				sum = sum + count;
+			for(count = 1; count < num; count++) {
+				if((num % count) == 0) {
+					sum = sum + count;
+				}
 			}
-			rem = num % sum;
-			if(rem == 0) {
+			if(sum == num) {
 				System.out.println(num);
 			}
+			sum = 0;
 		}
 	}
 

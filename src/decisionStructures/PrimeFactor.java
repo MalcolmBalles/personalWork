@@ -28,7 +28,7 @@ public class PrimeFactor {
 			if(ind == 1) {
 				while((div % num) == 0) {
 					div = div / num;
-					System.out.println(num);
+					System.out.print(num + "    ");
 				}
 			}
 			ind = 0;
