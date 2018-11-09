@@ -1,14 +1,14 @@
 package decisionStructures;
-import java.*;
-import java.io.File;
-import java.io.IOException;
 
 public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ForbiddenClass dont = new ForbiddenClass();
-			
+		int count = 0;
+		for(count = 0; count <= 1000; count++) {
+			ForbiddenClass dont = new ForbiddenClass();
+			dont = null;
+		}
 		
 	}
 
