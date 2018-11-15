@@ -6,11 +6,27 @@ public class ClassNotes1 {
 		// TODO Auto-generated method stub
 
 		Scanner input = new Scanner(System.in);
-		System.out.println("say a sentence");
+		System.out.println("ssn please");
 		String name = input.nextLine();
-		boolean ritu = name.contains("ritu");
-		System.out.println(ritu);
-		System.out.println(name.indexOf("ur mom gay"));
+		int count = 0;
+		System.out.println("First 3");
+		for(count = 0; count <= 2; count++) {
+			System.out.print(name.charAt(count));
+		}
+		System.out.println("");
+		System.out.println("Mid 2");
+
+		for(count = 3; count <= 4; count++) {
+			System.out.print(name.charAt(count));
+		}
+		System.out.println("");
+		System.out.println("last 4");
+
+		for(count = 5; count <= 8; count++) {
+			System.out.print(name.charAt(count));
+		}
+		
+	
 	}
 
 }
